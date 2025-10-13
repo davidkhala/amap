@@ -9,7 +9,7 @@ api = API(key)
 
 class TipsTestCase(unittest.TestCase):
     def test_edu(self):
-        r = api.search('Tsinghua University')
+        r = api.tips('Tsinghua University')
         print(r)
 
 

@@ -21,7 +21,7 @@ class API(Request):
         params['key'] = self.key
         return super().request(url, method, params, data, json)
 
-    def search(self, address: str):
+    def tips(self, address: str):
         params = {
             'keywords': address
         }
