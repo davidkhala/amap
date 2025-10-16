@@ -1,4 +1,4 @@
-from davidkhala.http_request import Request, default_on_response
+from davidkhala.utils.http_request import Request, default_on_response
 
 
 class API(Request):
